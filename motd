@@ -6,7 +6,10 @@
    Nothing here is production, and nothing is
    kept once the container is removed.
 
-   Install aegis:
-     curl -fsSL https://krathos.systems/install.sh | bash
+   Claude Code and aegis are installed. Next:
+     aegis login      your Aegis address + aeg_ key
+     git clone <repo> && cd <repo>
+     aegis init       set up the repository
+     aegis doctor     no line should say FAIL
   ===============================================
 
