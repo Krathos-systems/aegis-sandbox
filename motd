@@ -1,0 +1,12 @@
+
+  ===============================================
+   AEGIS SANDBOX
+  ===============================================
+   This is a disposable test environment.
+   Nothing here is production, and nothing is
+   kept once the container is removed.
+
+   Install aegis:
+     curl -fsSL https://krathos.systems/install.sh | bash
+  ===============================================
+

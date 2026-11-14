@@ -1,0 +1,6 @@
+services:
+  sandbox:
+    build: .
+    image: aegis-sandbox
+    container_name: aegis-sandbox
+    hostname: aegis-sandbox
