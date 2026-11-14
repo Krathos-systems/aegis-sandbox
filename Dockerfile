@@ -10,7 +10,6 @@ WORKDIR /root
 
 # Claude Code first: the aegis installer only adds its plugin when `claude` is on PATH
 RUN curl -fsSL https://claude.ai/install.sh | bash
-RUN curl -fsSL https://krathos.systems/install.sh | AEGIS_REQUIRE_SIGNATURE=1 bash
 
 COPY motd /etc/motd
 # docker exec doesn't go through PAM login, so print the MOTD from bashrc

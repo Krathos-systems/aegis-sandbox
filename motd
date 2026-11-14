@@ -3,13 +3,12 @@
    AEGIS SANDBOX
   ===============================================
    This is a disposable test environment.
-   Nothing here is production, and nothing is
-   kept once the container is removed.
+   Nothing here modifies your system.
+   Nothing is saved once the container is removed.
 
-   Claude Code and aegis are installed. Next:
-     aegis login      your Aegis address + aeg_ key
-     git clone <repo> && cd <repo>
-     aegis init       set up the repository
-     aegis doctor     no line should say FAIL
+   Claude Code is already installed. You'll need to login
+
+   Next install Aegis:
+       curl -fsSL https://github.com/Krathos-systems/aegis-cli/releases/latest/download/install.sh | bash
+
   ===============================================
-
